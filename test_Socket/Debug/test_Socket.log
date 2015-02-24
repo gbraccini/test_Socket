@@ -1,0 +1,35 @@
+﻿Build started 23/02/15 15.36.36.
+Project "C:\Documents and Settings\gbraccini\Documenti\Visual Studio 2010\Projects\test_Socket\test_Socket\test_Socket.vcxproj" on node 2 (build target(s)).
+InitializeBuildStatus:
+  Creating "Debug\test_Socket.unsuccessfulbuild" because "AlwaysCreate" was specified.
+GenerateTargetFrameworkMonikerAttribute:
+Skipping target "GenerateTargetFrameworkMonikerAttribute" because all output files are up-to-date with respect to the input files.
+ClCompile:
+  All outputs are up-to-date.
+  c:\Programmi\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /AI"C:\Programmi\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /Zi /clr:pure /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\test_Socket.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /TP /FU"C:\Programmi\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /FU"C:\Programmi\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /FU"C:\Programmi\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /FU"C:\Programmi\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Drawing.dll" /FU"C:\Programmi\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Windows.Forms.dll" /FU"C:\Programmi\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /analyze- /errorReport:prompt test_Socket.cpp /clr:nostdlib 
+  test_Socket.cpp
+c:\documents and settings\gbraccini\documenti\visual studio 2010\projects\test_socket\test_socket\Form1.h(181): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+          c:\Programmi\Microsoft Visual Studio 10.0\VC\include\stdlib.h(867) : see declaration of 'itoa'
+c:\documents and settings\gbraccini\documenti\visual studio 2010\projects\test_socket\test_socket\Form1.h(147): warning C4101: 'iSendResult' : unreferenced local variable
+  All outputs are up-to-date.
+CoreResGen:
+  All outputs are up-to-date.
+ResourceCompile:
+  All outputs are up-to-date.
+Link:
+  c:\Programmi\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Documents and Settings\gbraccini\Documenti\Visual Studio 2010\Projects\test_Socket\Debug\test_Socket.exe" /INCREMENTAL /NOLOGO /ASSEMBLYRESOURCE:Debug\test_Socket.Form1.resources /MANIFEST /ManifestFile:"Debug\test_Socket.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Documents and Settings\gbraccini\Documenti\Visual Studio 2010\Projects\test_Socket\Debug\test_Socket.pdb" /ASSEMBLYDEBUG /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"main" /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 Debug\app.res
+  Debug\AssemblyInfo.obj
+  Debug\stdafx.obj
+  Debug\test_Socket.obj
+  "Debug\.NETFramework,Version=v4.0.AssemblyAttributes.obj"
+  test_Socket.vcxproj -> C:\Documents and Settings\gbraccini\Documenti\Visual Studio 2010\Projects\test_Socket\Debug\test_Socket.exe
+Manifest:
+  C:\Programmi\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Documents and Settings\gbraccini\Documenti\Visual Studio 2010\Projects\test_Socket\Debug\test_Socket.exe;#1" /manifest Debug\test_Socket.exe.intermediate.manifest
+FinalizeBuildStatus:
+  Deleting file "Debug\test_Socket.unsuccessfulbuild".
+  Touching "Debug\test_Socket.lastbuildstate".
+Done Building Project "C:\Documents and Settings\gbraccini\Documenti\Visual Studio 2010\Projects\test_Socket\test_Socket\test_Socket.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:08.28
